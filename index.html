@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Prometheus|Home</title>
+        <meta name="description" content="Prometheus 2014">
+   	<meta name="keywords" content="Prometheus, Retro-Futurism">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:title" content="Prometheus 2014"/>
+<meta property="og:type" content="website" />
+<meta property="og:image" content="http://prometheus.iecsemanipal.com/img/desc.jpg" />
+<meta property="og:url" content="http://prometheus.iecsemanipal.com/" />
+<meta property="og:description" content="The Computer Science Festival of MIT, Manipal" />
+
+        <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/buttons.css">
+        <script src="js/vendor/modernizr-2.7.1.min.js"></script>
+        <script src="js/vendor/jquery-1.11.0.min.js"></script>
+        <link rel="stylesheet" href="css/home.css" media="screen">
+        <link rel="shortcut icon" href="http://iecsemanipal.com/Prometheus/favico.png" type="image/x-icon" />
+    </head>
+    <body>
+       <div class="voice" id="startRecBtn" >
+                <p class="vtext">Voice Commands</p>
+                <p class="cmd"><span class="vheading">Click to activate. Allow Microphone when asked.</span><br>Read Nav label to goto different pages.<br>Eg. "About" or "events" <br>
+                    It works 70% percent of the time, so good luck.
+                </p>
+              </div>
+        <!--[if lt IE 8]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+       <div class="loader">
+       	<figure>
+       		<img src="img/overlay.gif" class="overlay">
+       		<p>Loading...</p>
+       	</figure>
+       </div>
+       <script type="text/javascript">
+       $(document).ready(function(){
+       	$('.loader').hide(1);
+       });
+       </script>
+      <div id="container">
+          <section id="top">
+             <div id="wrapper">
+                 <img src="img/city.png" style="display:none">
+               <canvas id="city" width="1350" height="350"></canvas>
+                 <figure><img src="img/logobig.png" alt ="Prometheus"></figure>
+              </div>
+              <script src="js/panning.js"></script>
+          </section>
+          <section id="bottom">
+           <nav>
+			<ul>
+			 <li>
+			 <div class="space">
+				<div class="cube" data-color="#ed145b #77072b #77072b #620624 #620624 #990a39">
+				<div class="face front-face nav" data-link="about.html"><p>About</p></div>
+				<div class="face left-face"></div>
+				<div class="face right-face"></div>
+				<div class="face bottom-face"></div>
+				<div class="face top-face"></div>
+				<div class="face back-face"></div>
+				</div>
+			</div>
+			 </li>
+			 <li>
+			 	<div class="space">
+				<div class="cube" data-color="#2a9ee7 #0d6ba6 #0d6ba6 #0f75b5 #0f75b5 #0f75b5">
+				<div class="face front-face nav" data-link="events.html"><p>Events</p></div>
+				<div class="face left-face"></div>
+				<div class="face right-face"></div>
+				<div class="face bottom-face"></div>
+				<div class="face top-face"></div>
+				<div class="face back-face"></div>
+				</div>
+				</div>
+			 </li>
+			 <li>
+			 	<div class="space">
+				<div class="cube" data-color="#d7e912 #b5af0c #b5af0c #d8d10e #d8d10e #d8d10e">
+				<div class="face front-face nav" data-link="schedule.html" ><p>Schedule</p></div>
+				<div class="face left-face"></div>
+				<div class="face right-face"></div>
+				<div class="face bottom-face"></div>
+				<div class="face top-face"></div>
+				<div class="face back-face"></div>
+				</div>
+				</div>
+			 </li>
+			 <li>
+			 	<div class="space">
+				<div class="cube" data-color="#a2e70e #76c007 #76c007 #76c007 #76c007 #76c007">
+				<div class="face front-face nav" data-link="register.html" ><p>Register</p></div>
+				<div class="face left-face"></div>
+				<div class="face right-face"></div>
+				<div class="face bottom-face"></div>
+				<div class="face top-face"></div>
+				<div class="face back-face"></div>
+				</div>
+				</div>
+			 </li>
+             <li>
+			 	<div class="space">
+				<div class="cube" data-color="#4dd9d1 #0f7670 #47e8df #09d5c9 #2d6663 #d8d10e">
+				<div class="face front-face nav" data-link="contact.php"><p>Contact us</p></div>
+				<div class="face left-face"></div>
+				<div class="face right-face"></div>
+				<div class="face bottom-face"></div>
+				<div class="face top-face"></div>
+				<div class="face back-face"></div>
+				</div>
+				</div>
+			 </li>	
+			</ul>
+		</nav>
+              <figure class="small center margin-b"><img src="img/iecsemanipal.png" alt= "iecse manipal"></figure>
+              <div  class="center" style="width:500px;">
+                <iframe width="500" height="315" src="//www.youtube.com/embed/cfCy24K5R9U" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <div id = "sponsors" class="center">
+              <ul class="center grid"> 
+              <li><a href="http://www.tatametaliks.com/" target="_blank"><img src="img/sponsors/logo2.png" class="round-rec"></a></li>
+                    
+	              <li><a href="https://www.facebook.com/GizmoUdupi" target="_blank"><img src="img/Gizmo.png" class="round-rec"></a></li>
+	              <li><a href="http://www.sail.co.in/" target="_blank"><img src="img/sponsors/logo1.png" class="round-rec"></a></li>
+                    <li><a href="https://www.facebook.com/pages/Limits/449050375216196" target="_blank"><img src="img/sponsors/logo3.png" class="round-rec"></a></li>
+                    
+               
+                    
+                </ul>
+              </div>
+          </section>
+        
+        </div> 
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/nav-speech.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/parent.css">
+        <script src="js/vendor/modernizr-2.7.1.min.js"></script>
+        <script src="js/vendor/jquery-1.11.0.min.js"></script>
+    </head>
+    <style>
+        body{
+            background:#2e3233;
+        }
+        .voice{
+            background: #DDD;
+             width:150px;
+        }
+        .voice p{
+            font-size: 0.8em;
+            
+        }
+        .vtext{
+            font-family:inherit;
+            font-size: 0.8em;
+            border-radius:3px;
+            display: block;
+            background: #EEE url('img/micd.png') no-repeat;
+            background-position: right;
+            padding-right:1.5em;
+            padding-top:0.5em;
+            padding-bottom: 0.5em;
+            box-shadow: 0 0px 1px #000;
+            cursor: pointer;
+        }
+        .vheading{
+            color: #f22908;
+        }
+        .cmd{
+            display: none;
+            color:#393939;
+            padding: 3px;
+        }
+        .vtext:hover+ .cmd{
+            display: block;
+        }
+    </style>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class="voice">
+        <p class="vtext">Voice Commands</p>
+        <p class="cmd"><span class="vheading">Click to activate. Allow Microphone when asked.</span><br><br> Read Nav label to goto different pages.<br>Eg. "About" or "events" </p>
+    </div>
+    </body>
+    </html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Prometheus|About</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+        <script src="js/vendor/jquery-1.11.0.min.js"></script>
+        <script src="js/plugins/slippry.min.js"></script>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/parent.css">
+        <link rel="stylesheet" href="css/about.css" media="screen">
+        <script src="js/vendor/modernizr-2.7.1.min.js"></script>
+        <link rel="stylesheet" href="js/plugins/slippry.css">
+        <link rel="shortcut icon" href="http://iecsemanipal.com/Prometheus/favico.png" type="image/x-icon" />
+        
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="voice" id="startRecBtn">
+                <p class="vtext">Voice Commands</p>
+                <p class="cmd"><span class="vheading">Click to activate. Allow Microphone when asked.</span><br>Read Nav label to goto different pages.<br>Eg. "About" or "events" </p>
+              </div>
+        <header>
+            <figure class="pull-left"><a href ="/index.html"><img src="img/logo.png" alt="Prometheus"></a></figure>
+                <ul class="nav">
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="events.html">events</a></li>
+                    <li><a href="schedule.html">schedule</a></li>
+                    <li><a href="register.html">register</a></li>
+                    <li><a href="contact.php">contact us</a></li>
+                </ul>
+        </header>
+        
+        <section id="slidder">
+            <ul id="slippery">
+            <li><a href="#slide1"><img src="img/slides/slide1.jpg"  alt="Prometheus 2014"></a></li>                
+                <li><a href="#slide2"><img src="img/slides/slide2.jpg"  alt="Revisiting Yesterday's Tomorrow"></a></li>
+                <li><a href="#slide3"><img src="img/slides/slide3.jpg" alt=""></a></li>
+                <li><a href="#slide4"><img src="img/slides/slide4.jpg" alt=""></a></li>
+            </ul>
+       <script>
+            $(function() {
+                var demo1 = $("#slippery").slippry({
+                    transition: 'fade',
+                    useCSS: true,
+                    speed: 1000,
+                    pause: 3000,
+                    auto: true,
+                    preload: 'visible'
+                });
+
+                $('.stop').click(function () {
+                    demo1.stopAuto();
+                });
+
+                $('.start').click(function () {
+                    demo1.startAuto();
+                });
+
+                $('.prev').click(function () {
+                    demo1.goToPrevSlide();
+                    return false;
+                });
+                $('.next').click(function () {
+                    demo1.goToNextSlide();
+                    return false;
+                });
+                $('.reset').click(function () {
+                    demo1.destroySlider();
+                    return false;
+                });
+                $('.reload').click(function () {
+                    demo1.reloadSlider();
+                    return false;
+                });
+                $('.init').click(function () {
+                    demo1 = $("#demo1").slippry();
+                    return false;
+                });
+            });
+        </script>
+        </section>
+        
+        
+        <div class="clear-fix"></div>
+        <div id="container">
+            <h1>Prometheus</h1>
+            <section class="about">
+                <p>IE CSE, the Computer Science Student’s Chapter of MIT, Manipal is holding its third annual Computer Science Festival, in association with the Dept. of CSE from 12th – 16th April, 2014.</p>
+        <p>Prometheus is an extravaganza of numerous events, both online and offline. These will be held over a span of 5 days, open to all years and branches, but particularly focusing on computers and programming.</p>
+        <p>Our goal is to encourage student participation and give them exposure to competitive programming and also give them an idea of the kind of questions they can encounter in contents as well as job interviews.
+It’s a great way to bring together all computer and technology enthusiasts and have something for everyone to participate. 
+</p>
+        <p>The theme for Prometheus is Retro-futurism. The thing about the Future is that as uncertain as it might be, you can't stop dreaming about it, picturing it and feeling excited. Whether it be the 21st century or the 60s or 70s, people never stopped wondering what the Future will look like... and this year, we will revisit the once held image of the future that had a cultural influence on everything we see today.</p>
+        <p>Flying Cars. Laser Guns. Teleportation. Holographic Communication. Time Travel. Hover Boards. Space Colonies. Artificial Intelligence. It's how they pictured the present back in the day, and it's still how we see tomorrow! 
+</p>
+            <h1 class="olive">Previous Sponsors</h1>
+                <ul class="grid"> 
+                    <li><a ><img src="img/sponsors/tata.jpg"class="round-rec shadow" alt="Tata Steel"></a></li>
+                    <li><a><img src="img/sponsors/ibm.jpg" class="round-rec shadow" alt= "IBM"></a></li>
+                    <li><a><img src="img/sponsors/blackcup.jpg" class="round-rec shadow" "Blackcups"></a></li>
+                </ul>
+            </section>
+        <footer>
+        <p>iecse manipal</p>
+        </footer>
+        
+        </div>
+        <script src="js/nav-speech.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,53 @@
+{
+  "event1": {
+    "name": "Code K.O.",
+    "path": "img/cklogo.png",
+    "desc": "Code your way to glory in this hunt for the single best coder amongst you! Race against time to be in the top half in every round. You are alone, but all languages are allowed."
+  },
+  "event2": {
+    "name": "Online Coding",
+    "path": "img/online.png",
+    "desc": "An intense 4 day online coding event hosted on Codechef, 24x7 is one event which is bound to make you code all night."
+  },
+  "event3": {
+    "name": "HawkEye",
+    "path": "img/helogo.png",
+    "desc": "HawkEye is an online cryptic hunt where you go against everyone. Just remember that the Internet is your only friend."
+  },
+  "event4": {
+    "name": "Bid n' Code ",
+    "path": "img/bclogo.png",
+    "desc": "You have to bid on your code, having faith in your code is the only way you can progress."
+  },
+  "event5": {
+    "name": "MITrail",
+    "path": "img/mitlogo.png",
+    "desc": "Run around Manipal, hunt down clues, be ahead of the rest to take away the prize."
+  },
+  "event6": {
+    "name": "Neuron Twisters",
+    "path": "img/ntlogo.png",
+    "desc": "Essentially a quiz with a twist, so be ready to tingle your brain cells."
+  },
+  "event7": {
+    "name": "Decepticode",
+    "path": "img/dclogo.png",
+    "desc": "Prove your reasoning abilities, code in languages you have never seen before."
+  },
+  "event8": {
+    "name": "EcDc",
+    "path": "img/edlogo.png",
+    "desc": "Bring along your crypto hats, this event is purely based on cryptography. Do you think you have it all to decode the ultimate prize?"
+  },	
+  "event9": {
+    "name": "Retroshot",
+    "path": "img/rtlogo.png",
+    "desc": "Pictures of places in and around Manipal will be provided to the particiapnts. The participants have to use photoshop to give the picture a retro look."
+  },
+  "event10": {
+    "name": "Paper Presentation",
+    "path": "img/pplogo.png",
+    "desc": "With an attempt to encourage the efforts of those who would like to think out of the box for a better future, this event provides an ideal platform for the thinkers of this generation to present their technical ideas and let the experts evaluate them."
+  }
+
+}

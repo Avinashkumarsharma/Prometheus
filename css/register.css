@@ -1,0 +1,94 @@
+body{
+background-color:#161c1e;
+background: url(../img/regretro.jpg) no-repeat;
+background-position: 0% 40%;
+background-size:auto;
+-webkit-animation: back 15s  1  linear;
+-webkit-animation-fill-mode: forwards;
+-moz-animation: back 15s  1  linear;
+-moz-animation-fill-mode: forwards;
+-o-animation: back 15s  1  linear;
+-o-animation-fill-mode: forwards;
+animation: back 15s  1  linear;
+animation-fill-mode: forwards;
+}
+header{
+background-color: #0f0c0c;
+padding-bottom:0.1em;
+}
+.nav li, nav li a{
+    color:#8b7978;
+}
+#container>h1{
+margin: auto;
+text-align: center;
+color:white;
+background:#0f5870;
+font-family: SquareDance10,sans-serif,tahoma;
+margin-bottom: 1.5em;
+}
+#container>caption{
+width: 100%;
+}
+@-webkit-keyframes back{
+from{background-position:0% 0%; }
+to{background-position: 50% 90%;}
+}
+@-moz-keyframes back{
+from{background-position:80% 0%;}
+to{background-position: 0% 40% }
+}
+
+#regform{
+width: 30%;
+min-width:390px;
+font-family:exo; 
+background:#000000;
+margin-top:-1em;
+}
+label{
+    font-size: 1.2em;
+    color:#b41606
+}
+#regform input[type="text"],#regform input[type="email"]{
+    outline: none;
+    border:none;
+    background:transparent;
+    border-bottom: 2px solid #f7941d;
+    color:#cccbca;
+}
+#regform td{
+padding:1em 0 1em 0.7em;
+}
+#regform tr{
+margin:1em;
+}
+
+#regform form{
+margin-bottom: 2em;
+
+}
+#regform input[type="submit"]{
+margin-bottom: 2em;
+background: #00aeef;
+text-align: center;
+border: none;
+float: right;
+margin-right:1em;
+padding: 0.5em;
+}
+#regform input[name="captcha"]{
+border-bottom:none;
+background: #161c1e;
+padding:0.5em;
+margin:0.5em auto;
+text-align: center;
+margin-left:2.1em;
+}
+#cap-wrapper{
+width:200px;
+margin:auto;
+}
+#change-image{
+margin-left:2.2em;
+}

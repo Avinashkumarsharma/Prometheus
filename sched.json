@@ -1,0 +1,93 @@
+{
+  "event1": {
+    "name": "Code Knockout",
+    "path": "img/cklogo.png",
+    "rnd1dt": "13th April",
+    "rnd2dt": "14th April",
+    "rnd1tt": "1:45-4:45 PM",
+    "rnd2tt": "7:00-9:00 PM"
+  },
+
+    "event2": {
+    "name": "Bid N' Code",
+    "path": "img/bclogo.png",
+    "rnd1dt": "14th April",
+    "rnd2dt": "15th April",
+    "rnd1tt": "5:45-6:45 PM",
+    "rnd2tt": "8:00-9:00 PM"
+  },
+
+    "event3": {
+    "name": "Decepticode",
+    "path": "img/dclogo.png",
+    "rnd1dt": "13th April",
+    "rnd2dt": "15th April",
+    "rnd1tt": "11:15 AM-1:15 PM",
+    "rnd2tt": "5:45-7:45 PM"
+  },
+
+    "event4": {
+    "name": "Encrypt Decrypt",
+    "path": "img/edlogo.png",
+    "rnd1dt": "12th April",
+    "rnd2dt": "13th April",
+    "rnd1tt": "5:45-6:30 PM",
+    "rnd2tt": "9:00-11:00 AM"
+  },
+
+    "event5": {
+    "name": "Neuron Twister",
+    "path": "img/ntlogo.png",
+    "rnd1dt": "12th April",
+    "rnd2dt": "15th April",
+    "rnd1tt": "8:00-9:00 PM",
+    "rnd2tt": "6:00-8:00 PM"
+  },
+
+    "event6": {
+    "name": "MITrail",
+    "path": "img/mitlogo.png",
+    "rnd1dt": "12th April",
+    "rnd2dt": "13th April",
+    "rnd1tt": "6:45-7:45 PM",
+    "rnd2tt": "11:00 AM-5:00 PM"
+  },
+  
+      "event7": {
+    "name": "HawkEye",
+    "path": "img/helogo.png",
+    "rnd1dt": "Online Event",
+    "rnd2dt": "All 5 days",
+    "rnd1tt": "- Throughout Prometheus",
+    "rnd2tt": "- 24x7"
+  },
+
+      "event8": {
+    "name": "Online Coding",
+    "path": "img/online.png",
+    "rnd1dt": "Online Event",
+    "rnd2dt": "All 5 days",
+    "rnd1tt": "- Throughout Prometheus",
+    "rnd2tt": "- 24x7"
+  },
+
+      "event9": {
+    "name": "Retro Shot",
+    "path": "img/rtlogo.png",
+    "rnd1dt": "Online Event",
+    "rnd2dt": "All 5 days",
+    "rnd1tt": "- Throughout Prometheus",
+    "rnd2tt": "- 24x7"
+  },
+  
+        "event10": {
+    "name": "Paper Presentation",
+    "path": "img/pplogo.png",
+    "rnd1dt": "16th",
+    "rnd2dt": "6:00 PM",
+    "rnd1tt": "April",
+    "rnd2tt": " - 9:00 PM"
+  }
+
+
+}

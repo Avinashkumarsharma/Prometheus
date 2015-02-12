@@ -1,0 +1,42 @@
+body{
+background-color: #0b0e0f;
+}
+header{
+background-color: #0f0c0c;
+padding-bottom:0.1em;
+}
+.nav li, nav li a{
+    color:#8b7978;
+}
+section{
+width:50%;
+min-width:300px;
+margin:5em auto;
+}
+section h1{
+color: #effb35;
+font-size: 5em;
+}
+section p{
+color:#e1dccb;
+font-size: 1.5em;
+font-family: monospace,sans-serif,tahoma;
+}
+
+#ret input[type="email"]{
+    outline: none;
+    border:none;
+    background:transparent;
+    border-bottom: 4px solid #f7941d;
+    color:#cccbca;
+    width:60%;
+    font-size: 2em;
+}
+
+#ret input[type="submit"]{
+margin-bottom: 2em;
+background: #00aeef;
+text-align: center;
+border: none;
+padding: 0.5em
+}
